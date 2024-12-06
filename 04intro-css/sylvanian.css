@@ -1,0 +1,138 @@
+/* Body Begins Here */
+
+body {
+    font-family: "Merriweather", serif;
+    font-size: 14px;
+    font-weight: 300; 
+    margin: 0;
+}
+
+/* Header Begins Here */
+
+header {
+    background-color: #f299a9;
+    padding: 3rem 1vw;
+    text-align: center;
+}
+
+header h1 {
+    margin: 0;
+    color: white;
+    font-weight: 300;
+}
+
+header p {
+    margin:  0;
+    color: #d0d98b;
+    letter-spacing: .5rem;
+    font-weight: 700;
+}
+
+/* Nav Goes Here */
+
+nav {
+    background-color: #d0d98b;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0 2vw;
+    margin: 0 2vw;
+    display: flex;
+}
+
+nav a {
+    font-size: 1rem;
+    text-decoration: none;
+    color: white;
+    font-weight: 700;
+    display: block;
+    padding: .87rem 1.3rem;
+}
+
+nav li.online a {
+    background-color: #f2c2c2;
+    color: #f2dea0;
+}
+
+nav a:hover {
+    color: #f2b366;
+}
+
+
+/* Main Goes Here */
+
+main {
+    padding: 1.5rem 2vw;
+
+}
+
+main h1 {
+    color: #f299a9;
+}
+
+main h2 {
+    color: #f299a9;
+    margin-bottom: .28rem;
+}
+
+main p {
+    color: black;
+    margin: 0 0 .3rem 0;
+}
+
+main ol {
+    padding: .5rem 2vw;
+    background-color: #f2dea0;
+}
+
+main dl dt {
+    color: black;
+    font-weight: 700;
+}
+
+main dl dd {
+    color: black;
+    font-weight: 300;
+}
+
+main ul {
+    list-style-type: circle;
+}
+
+
+main ul li {
+    line-height: 150%;
+    margin: .7rem;
+}
+
+main address {
+    font-style: oblique;
+    background-color: #d0d98b;
+    padding: 1rem;
+    width: max-content;
+    border: 3px outset #f2c2c2;
+    border-radius: 12px;
+}
+
+main a {
+    color: #f2b366;
+}
+
+main a:hover {
+    color: #d0d98b;
+}
+
+/* Footer Goes Here */
+
+footer {
+    background-color: #f299a9;
+    text-align: center;
+    color: white;
+    padding: .2rem 0;
+    font-size: .9rem;
+}
+
+footer a {
+    color: #d0d98b;
+}
