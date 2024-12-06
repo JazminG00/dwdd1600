@@ -1,0 +1,98 @@
+<!doctype html>
+<html lang="en">
+    <head>
+        <title>Sylvanian Archive: Home</title>
+        
+        <meta charset="UTF-8">
+        <meta name="description" content="Welcome to Sylvanian Archive! Where all things about Sylvanian Families recides. Dive into the history of Sylvanian Families, all their sets, and be a part of our community!">
+        <meta name="author" content="Jazmin Gonzalez Garcia">
+
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+
+        <link rel="stylesheet" href="sylvanian.css">
+
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Merriweather:wght@300;700&display=swap" rel="stylesheet">
+
+    </head>
+
+    <body>
+        <!--Start of the page-->
+        <header>
+            <h1>Sylvanian Archive</h1>
+            <p>DELIGHTFUL LITTLE TRINKETS!</p>
+
+        </header>
+
+        <!--Start of the page navigation-->
+        <nav>
+            <ul>
+                <li><a href="index.html">About Sylvanian Family</a></li>
+                <li><a href="collection.html">Sylvanian Sets</a></li>
+                <li><a href="gallery.html">Gallery</a></li>
+                <li class="online"><a href="error.html">Found an Error?</a></li>
+            </ul>
+        </nav>
+
+        <!--Start of the page content-->
+        <main>
+            <h1>Found an Error? Report!.</h1>
+           
+            <form method="get" class="myForm" action="thanks.html">
+            <fieldset>
+                <legend>User Info</legend>
+                 <label>First Name*<input type="text" name="fname" required></label>
+                <label>Last Name*<input type="text" name="lname" required></label>
+                <label>Email*<input type="email" name="email" required></label>
+                <label>Phone #<input type="tel" name="phone" placeholder="000-123-9898"></label>
+                </fieldset>
+
+                <fieldset>
+                   
+                    <label>Typer of Error
+                        <select name="click">
+                        <option value="none">Please Select</option>
+                        <option value="bug">Bug report</option>
+                        <option value="info">Misinformation</option>
+                        <option value="gram">Grammar/Mispelling</option>
+                        </select>
+                        </label>
+                </fieldset>   
+                
+
+                <fieldset>
+                    <legend>How Urgent is this Error?</legend>
+                       <label><input type="radio" name="method" value="not">Not Urgent</label>
+                       <label><input type="radio" name="method" value="somewhat">Somewhat Urgent</label>
+                       <label><input type="radio" name="method" value="very">Very Urgent</label>
+                </fieldset>
+
+                <fieldset>
+                        <legend>Did this affect Usability?</legend>
+                             <label><input type="checkbox" name="at" value="chosen">Not at All</label>
+                            <label><input type="checkbox" name="not" value="chosen">Miniamal</label>
+                            <label><input type="checkbox" name="soso" value="chosen">Somewhat</label>
+                            <label><input type="checkbox" name="more" value="chosen">Considerably</label>
+                 </fieldset>
+
+                 <label>Extra Concerns
+                    <textarea name="concerns"></textarea>
+                </label>
+
+                <input type="submit" value="Report Your Report">
+
+            </form>
+                        
+
+        </main>
+
+        <!--Start of the page footer-->
+        <footer>
+            <p>&copy; 2024 &bull; Jazmin Gonzalez Garcia &bull; <a href="mailto:10964269@uvu.edu">Email Us</a></p>
+
+        </footer>
+    </body>
+
+
+</html>
