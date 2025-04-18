@@ -1,0 +1,152 @@
+body {
+    font-family: "Lora", serif;
+    margin: 0;
+}
+
+/* header starts here */
+header {
+    background-color: #bfb893;
+    padding: 1rem 10px;
+}
+header span {
+    color: #252526;
+    font-size: 1.6rem;
+    font-weight: 700;
+}
+header p {
+    color: #a6806a;
+    font-weight: 300;
+    margin: 0;
+    padding: 0;
+}
+
+/* navigation starts here */
+nav {
+    background-color: #93a686;
+}
+nav ul {
+    margin: 0;
+    padding: 0 9px;
+    list-style-type: none;
+    display: flex;
+}
+nav a {
+    display: block;
+    padding: .75rem 1rem;
+    text-decoration: none;
+    font-size: 1.2rem;
+    color: #252526;
+    font-weight: 700;
+}
+
+nav li.current a {
+    background-color: #73594f;
+    color: #bfb893;
+}
+
+nav li a:hover {
+    color: whitesmoke;
+}
+
+/* main starts here */
+main {
+    padding: 1rem 10px;
+}
+
+main h1 {
+    color: #a6806a;
+}
+main h2 {
+    color: #93a686;
+    margin-bottom: .5rem;
+}
+main p {
+    margin: 0;
+    color: #333;
+}
+main ol {
+    padding: .9rem 32px;
+    background-color: #d1dbbd;    
+}
+main dl dt {
+    color: #252526;
+    font-weight: 700;
+    margin-top: .8rem;
+}
+main dl dd {
+    color: #333;
+    font-size: .7rem;
+    margin-left: 15px;
+}
+main ul {
+    list-style-type: square;
+}
+main ul li {
+    line-height: 130%;
+    margin-bottom: .5rem;
+    font-size: .8rem;
+}
+main strong {
+    font-weight: 700;
+    color: black;
+}
+main em {
+    font-weight: 400;
+    color: #73594f;
+}
+main address {
+    font-style: normal;
+    background-color: #bfb893;
+    padding: .9rem;
+    border-radius: 15px;
+    border: 3px solid #93a686;
+    width: 230px;
+}
+main a {
+    color: #73594f;
+}
+main a:hover {
+    color: #bfb893;
+}
+/* main image starts here */
+figure.dive {
+    margin: 0 0 0 10px;
+    width: 30%;
+    float: right;
+}
+figure.dive img {
+    width: 100%;
+    height: auto;
+}
+figure.dive figcaption {
+    text-align: center;
+    font-size: .63rem;
+}
+/* gallery starts here */
+    div.gallery {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 30px 20px;
+    }
+    div.gallery figure {
+        margin: 0;
+    }
+    div.gallery figcaption {
+        text-align: center;
+        font-size: .97rem;
+        color: #73594f;
+    }
+/* footer starts here */
+footer {
+    background-color: #93a686;
+    text-align: center;
+    padding: .5rem 0;
+    clear: both;
+    
+}
+footer p {
+    margin: 0;
+    letter-spacing: 2.3px;
+    font-size: .7rem;
+    color: #333;
+}
