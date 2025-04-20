@@ -1,0 +1,327 @@
+/* prevents prob with different browsers */
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: "Lora", serif;
+    margin: 0;
+    font-size: 16px;
+}
+
+/* header starts here */
+header {
+    background-color: #bfb893;
+    padding: 1rem 10px;
+    display: flex;
+    align-items: flex-end;
+}
+
+header div {
+    padding-left: 2vw;
+}
+
+header span {
+    color: #252526;
+    font-size: 1.6rem;
+    font-weight: 700;
+}
+
+header p {
+    color: #a6806a;
+    font-weight: 300;
+    margin: 0;
+    padding: 0;
+}
+
+/* small screens */
+@media only screen and (max-width: 600px) {
+    nav ul {
+        margin: 0;
+        padding: 0 2vw;
+        list-style-type: none;
+    }
+
+    nav a {
+        display: block;
+        padding: .8rem;
+        text-decoration: none;
+        font-weight: 700;
+        text-transform: uppercase;
+        text-align: center;
+        border-bottom: solid 1px #d1dbbd;
+        color: #93a686;
+    }
+
+    nav .active a {
+        background-color: #93a686;
+        background-image: linear-gradient(to bottom, #939393, #748369);
+        color: #252526;
+    }
+
+}
+
+/* end of media query*/
+
+/* BIG SCREENS ONLY*/
+@media only screen and (min-width: 601px) {
+    nav {
+        background-color: #93a686;
+    }
+
+    nav ul {
+        margin: 0;
+        padding: 0 9px;
+        list-style-type: none;
+        display: flex;
+    }
+
+    nav a {
+        display: block;
+        padding: .75rem 1rem;
+        text-decoration: none;
+        font-size: 1.2rem;
+        color: #252526;
+        font-weight: 700;
+    }
+
+    nav li.active a {
+        background-color: #73594f;
+        color: #bfb893;
+    }
+
+    nav li a:hover {
+        color: whitesmoke;
+    }
+
+}
+
+/* end of media query*/
+
+
+
+
+
+
+
+
+
+/* main starts here */
+main {
+    padding: 1rem 10px;
+}
+
+main h1 {
+    color: #a6806a;
+}
+
+main h2 {
+    color: #93a686;
+    margin-bottom: .5rem;
+}
+
+main p {
+    margin: 0;
+    color: #333;
+}
+
+main ol {
+    padding: .9rem 32px;
+    background-color: #d1dbbd;
+}
+
+main dl dt {
+    color: #252526;
+    font-weight: 700;
+    margin-top: .8rem;
+}
+
+main dl dd {
+    color: #333;
+    font-size: .7rem;
+    margin-left: 15px;
+}
+
+main ul {
+    list-style-type: square;
+}
+
+main ul li {
+    line-height: 130%;
+    margin-bottom: .5rem;
+    font-size: .8rem;
+}
+
+main strong {
+    font-weight: 700;
+    color: black;
+}
+
+main em {
+    font-weight: 400;
+    color: #73594f;
+}
+
+main address {
+    font-style: normal;
+    background-color: #bfb893;
+    padding: .9rem;
+    border-radius: 15px;
+    border: 3px solid #93a686;
+    width: 230px;
+}
+
+main a {
+    color: #73594f;
+}
+
+main a:hover {
+    color: #bfb893;
+}
+
+/* main image starts here */
+figure.dive {
+    margin: 0 0 0 10px;
+    width: 30%;
+    float: right;
+}
+
+figure.dive img {
+    width: 100%;
+    height: auto;
+}
+
+figure.dive figcaption {
+    text-align: center;
+    font-size: .63rem;
+}
+
+
+/* hero starts here*/
+.dolphinhero {
+    width: 100%;
+    margin: 0;
+}
+
+.dolphinhero img {
+    width: 100%;
+    height: auto;
+}
+
+/* hero ends here*/
+
+
+/* gallery starts here */
+div.gallery {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 30px 20px;
+}
+
+div.gallery figure {
+    margin: 0;
+}
+
+div.gallery figcaption {
+    text-align: center;
+    font-size: .97rem;
+    color: #73594f;
+}
+
+.gallery img {
+    height: auto;
+}
+
+.gallery img:hover {
+    box-shadow: 0px 0px 30px black;
+}
+
+/*gallery ends here*/
+
+
+/*sighting info starts here*/
+
+.bottle fieldset {
+    border: 3px double #93a686;
+    border-radius: 7px;
+    margin-bottom: 1.6rem;
+}
+
+.bottle legend {
+    color: #73594f;
+    font-size: 1rem;
+}
+
+.bottle label {
+    margin: .87rem;
+}
+
+.bottle label,
+.bottle select,
+.bottle [type=text],
+.bottle [type=tel],
+.bottle [type=email],
+.bottle textarea {
+    display: block;
+}
+
+.bottle [type=text],
+.bottle [type=email],
+.bottle [type=tel],
+.bottle select,
+.bottle textarea {
+    border: solid 1px #a6806a;
+    padding: .32rem;
+    width: 220px;
+    border-radius: .7rem;
+    font-family: "Lora", serif;
+    font-weight: 400;
+}
+
+.bottle textarea {
+    height: 3.2rem;
+    background-color: rgba(255, 182, 193, 0.1);
+}
+
+.bottle :required {
+    background-color: rgba(255, 182, 193, 0.1);
+}
+
+.bottle [type=submit] {
+    background-color: #d1dbbd;
+    border: double #73594f;
+    padding: .5rem 2rem;
+    border-radius: 11px;
+    margin: 2rem 0 0 1vw;
+}
+
+/*sighting info starts here*/
+
+
+
+
+
+
+
+
+
+/* footer starts here */
+footer {
+    background-color: #93a686;
+    text-align: center;
+    padding: .5rem 0;
+    clear: both;
+
+}
+
+footer p {
+    margin: 0;
+    letter-spacing: 2.3px;
+    font-size: .7rem;
+    color: #333;
+}
+
+header, nav, main, footer {
+    max-width: 64rem;
+    margin: 0 auto;
+}

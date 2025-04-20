@@ -1,0 +1,95 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <title>Living Cetacea's: Home</title>
+
+    <meta charset="UTF-8">
+    <meta name="description"
+        content="This is Living Cetacea's! Join us in learning about the different whale species, and how thier life is being impacted.">
+    <meta name="author" content="Jazmin Gonzalez Garcia">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400..700;1,400..700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="breathing.css">
+
+    <link rel="icon" type="image/x-icon" href="favicon.ico">
+
+
+
+</head>
+
+<body>
+    <!--Start of the page-->
+    <header>
+        <img src="images/logo.png" alt="site logo" width="100" height="123">
+        <div>
+            <span>Living Cetacea's</span>
+            <p>Making A Splash!</p>
+        </div>
+    </header>
+
+    <!--Start of the page navigation-->
+    <nav>
+        <ul>
+            <li><a href="index.html">Species</a></li>
+            <li><a href="collection.html">Conservation</a></li>
+            <li><a href="visit.html">Seen In Mexico</a></li>
+            <li class="active"><a href="sight.html">Submit A Sighting</a></li>
+        </ul>
+    </nav>
+
+    <!--Start of the page content-->
+    <main>
+        <h1>Submit A Sighting</h1>
+        <form method="get" class="bottle" action="thanks.html">
+
+        <fieldset>
+        <legend>Basic Info</legend>
+        <label>Phone Number*<input type="tel" name="phone" required></label>
+        <label>Email*<input type="email" name="email" required></label>
+        </fieldset>
+
+        <fieldset>
+        <legend>Sighting Content</legend>
+        <label>Species Name*<input type="text" name="sname" required></label>
+            <label><input type="checkbox" name="start" value="chosen"> Sunrise</label>
+            <label><input type="checkbox" name="mid" value="chosen"> Mid-day</label>
+            <label><input type="checkbox" name="dark" value="chosen"> Sunset</label>
+
+            <label>
+            <select name="ocean">
+            <option value="location">Seen Where?</option>
+            <option value="artic">Artic Ocean</option>
+            <option value="pacific">Pacific Ocean</option>
+            <option value="atlantic">Atlantic Ocean</option>
+            <option value="south">Southern Ocean</option>
+            <option value="india">Indian Ocean</option>
+            </select>
+            </label>
+        </fieldset>
+
+        <fieldset>
+            <legend>Share Your Submisson?</legend>
+                <label><input type="radio" name="inquiry" value="yes">Yes</label>
+                <label><input type="radio" name="inquiry" value="no">No</label>
+                <label><input type="radio" name="inquiry" value="contact">Contact Me First</label>
+        </fieldset>
+
+        <label>Comments
+            <textarea name="comments" placeholder="Tell Us About Your Experiance!"></textarea>
+        </label>
+
+        <input type="submit" value="Complete">
+        </form>
+    </main>
+
+    <!--Start of the page footer-->
+    <footer>
+        <p>&copy; 2025 &bull; Jazmin Gonzalez Garcia &bull; <a href="mailto:10964269@uvu.edu">Email Us</a></p>
+
+    </footer>
+</body>
+
+</html>
