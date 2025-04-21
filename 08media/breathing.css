@@ -305,7 +305,7 @@ table.noise-hertz {
 table.noise-hertz th {
     background-color: #73594f;
     color: white;
-    padding: .5rem 2vw;
+    padding: rem 2vw;
     text-align: left;
 }
 table.noise-hertz td {
@@ -316,7 +316,7 @@ table.noise-hertz tr:nth-child(odd) {
     background-color: #f7f7f7;
 }
 table.noise-hertz tr:hover {
-    background-color: rgba(208,219,189,0.3);
+    background-color: rgba(54, 71, 23, 0.3);
 }
 
 
